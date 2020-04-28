@@ -26,6 +26,7 @@ python main.py --mode=test
 
 ### Reference
 [BERT] (https://github.com/google-research/bert)
+(https://github.com/guillaumegenthial/sequence_tagging)
 
 
 
