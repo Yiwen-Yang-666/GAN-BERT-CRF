@@ -18,6 +18,9 @@ Train data
 python main.py --mode=train
 ```
 
+### How to optimize
+One of effective optimize methods is to update different layers of BERT, you can set up which layers are updated in the bert_gan file<br>
+
 Test data and carry out active learning steps
 
 ```
