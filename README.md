@@ -3,4 +3,6 @@
 * NER: Use both unannotated and annotated samples to maximize NER performances.
 * Active leanring: Use both ouputs of CRF layer and the discrimitor to select unannotated samples to be labeled.
 * Identification of error labels: The discriminator outputs smaller score for the sequences with error labels
+
+####Usage
 .
