@@ -5,5 +5,6 @@
 * Identification of error labels: The discriminator outputs smaller score for the sequences with error labels
 
 ### DataSet
-The DataSet should be in the format of two columns. The words are in the first column and labels are in the second column. Sample data is in the Data Directory 
+The DataSet should be in the format of two columns. The words are in the first column and labels are in the second column. Sample data is in the Data Directory.
+The china_medical_char_data_cleaned directory process Chinese data and medical_char_data_cleaned process English data. First, Download dataset and put dataset into these two directories based on languages. Then run .sh file to produce training data, validation data and test data
 .
