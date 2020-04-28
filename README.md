@@ -11,5 +11,12 @@ The china_medical_char_data_cleaned directory process Chinese data and medical_c
 bash makefile.sh
 ```
 
+### Usage
+Download pretrained Bert and divide you training data into two parts: labeled data and unlabeled data. Put your divided training data、validation data and test data into model/data_path.<br>
+Train data
+```
+python main.py --mode=train
+```
+
 
 .
