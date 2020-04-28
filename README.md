@@ -4,5 +4,6 @@
 * Active leanring: Use both ouputs of CRF layer and the discrimitor to select unannotated samples to be labeled.
 * Identification of error labels: The discriminator outputs smaller score for the sequences with error labels
 
-### Usage
+### DataSet
+The DataSet should be in the format of two columns. The words are in the first column and labels are in the second column. Sample data is in the Data Directory 
 .
