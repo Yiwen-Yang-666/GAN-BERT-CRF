@@ -18,5 +18,11 @@ Train data
 python main.py --mode=train
 ```
 
+Test data and carry out active learning steps
+
+```
+python main.py --mode=test
+```
+
 
 .
