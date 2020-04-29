@@ -19,7 +19,13 @@ python main.py --mode=train
 ```
 
 ### How to optimize
-One of effective optimize methods is to update different layers of BERT, you can set up which layers are updated in the bert_gan file<br>
+One of effective optimize methods is to update different layers of BERT, you can set up which layers are updated in the bert_gan file.For example, 
+```
+self.params_1 = [param for param in tf.trainable_variables() if
+                         ('crf_param' not in param.name and 'bert/encoder/layer_11/output' in param.name) ]
+grads_and_vars2 = optim.compute_gradients(self.loss2, self.params_1)
+```
+      
 
 Test data and carry out active learning steps
 
