@@ -4,6 +4,10 @@
 * Active leanring: Use both ouputs of CRF layer and the discriminator to select unannotated samples to be labeled.
 * Identification of error labels: The discriminator outputs smaller score for the sequences with error labels.
 
+### Requirements
+* Python: 3.6
+* Tensorflow: 1.15.2
+
 ### DataSet
 The DataSet should be in the format of two columns. The words are in the first column and labels are in the second column. Sample data is in the Data Directory.<br>
 The china_medical_char_data_cleaned directory processes Chinese data and medical_char_data_cleaned processes English data. First, Download dataset and put dataset into these two directories based on languages. Then put your embedding files into these dicrectories and  run .sh file to produce training data, validation data, test data and embedding npz.
