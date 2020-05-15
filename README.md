@@ -39,7 +39,8 @@ python main.py --mode=test
 
 ### Reference
 [BERT] (https://github.com/google-research/bert)<br>
-(https://github.com/guillaumegenthial/sequence_tagging)
+[BiLSTM-CRF](https://github.com/guillaumegenthial/sequence_tagging)<br>
+            (https://github.com/guillaumegenthial/tf_ner/tree/master/models/chars_lstm_lstm_crf)
 
 
 
