@@ -1,5 +1,6 @@
 # GAN-BERT-CRF AND GAN-BiLSTM-CRF
-#### This is an algorithm which uses BERT-CRF as the generator and a CNN-based network as the discrminator. This algorithm can use both annotated samples and unannotated samples to maximize NER (i.e Name entity recognition) performance. Furthermore, it plays a role of active learning, and can effectively identify sequence samples with error labels. Thus, it has three features. The paper for this algorithm would be published soon.
+#### This is an algorithm which uses BERT-CRF as the generator and a CNN-based network as the discrminator. This algorithm can use both annotated samples and unannotated samples to maximize NER (i.e Name entity recognition) performance. Furthermore, it plays a role of active learning, and can effectively identify sequence samples with error labels. Thus, it has three features. The paper <<Adversarial active learning for the identification of medical concepts and annotation inconsistency>> is published in the Journal of
+Biomedical Informatics (https://www.sciencedirect.com/science/article/abs/pii/S1532046420301106) <br>.
 * NER: In medical field or other field, values of unannotated samples were ignored. This algorithm use adversarial idea to use unannotated to maximize NER performances， which means both unannotated and annotated samples are untilized for NER.
 * Active leanring: Use both ouputs of CRF layer and the discriminator to select unannotated samples to be labeled.
 * Identification of error labels: The discriminator outputs smaller score for the sequences with error labels.
